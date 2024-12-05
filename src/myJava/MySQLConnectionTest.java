@@ -1,4 +1,4 @@
-package java;
+package myJava;
 
 import java.sql.*;
 import java.io.File;

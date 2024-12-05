@@ -1,6 +1,8 @@
 <?php
 // Define the path to the JSON data folder
-$jsonDataPath = '/Users/sotirispittokopitis/IdeaProjects/java_PHP/json_data/';
+// Dynamically navigate to the project root
+$jsonDataPath = __DIR__ . '/../json_data/';
+
 
 // Load JSON files
 $productData = json_decode(file_get_contents($jsonDataPath . 'product.json'), true);
