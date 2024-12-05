@@ -19,5 +19,6 @@ chmod +x src/RunMe.sh
 ## Running the Project 
 Step 1: Run the Shell Script To execute the project, run the RunMe.sh script from the terminal: 
 ```bash
-cd src ./RunMe.sh
+cd src
+./RunMe.sh
 ```
