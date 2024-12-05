@@ -1,26 +1,23 @@
-# MySQL Database Dump
+## Setup Instructions:
+Clone the Repository: 
+git clone https://github.com/your-username/java_PHP.git 
+cd java_PHP 
 
-This repository contains the SQL dump file for the `my_database` database. The dump includes the schema and data for the `PRODUCT`, `CONTINENT`, `BRIDGE`, and `SALES` tables.
+—
 
----
+##Add Libraries: 
+Ensure the required .jar files are present in the lib/ directory.
+- gson-2.11.0.jar 
+- mysql-connector-j-9.1.0.jar)
 
-## Files in This Repository
-- **`database_dump.sql`**: The SQL dump file containing the database schema and data.
+—
 
----
+## Make the Shell Script Executable: 
+Run the following command to make the RunMe.sh file executable (if required): 
+- chmod +x src/RunMe.sh 
 
-## Instructions to Use the Dump
+—
 
-### 1. Prerequisites
-Before importing the dump file, ensure you have:
-- **MySQL Server** installed on your machine.
-- A MySQL client like **MySQL Workbench** or access to the MySQL CLI.
-- Appropriate permissions to create and modify databases on your MySQL server.
-
-### 2. Importing the Dump
-
-#### Using MySQL Workbench
-1. Open **MySQL Workbench** and connect to your MySQL Server.
-2. Create a new database to restore the dump:
-   ```sql
-   CREATE DATABASE my_database_name;
+## Running the Project 
+Step 1: Run the Shell Script To execute the project, run the RunMe.sh script from the terminal: 
+- cd src ./RunMe.sh
