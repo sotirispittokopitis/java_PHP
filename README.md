@@ -6,8 +6,10 @@ cd java_PHP
 
 ##Add Libraries: 
 Ensure the required .jar files are present in the lib/ directory.
+```bash
 - gson-2.11.0.jar 
 - mysql-connector-j-9.1.0.jar)
+```
 
 
 ## Make the Shell Script Executable: 
