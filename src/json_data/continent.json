@@ -1,0 +1,18 @@
+[
+  {
+    "CONTINENT_id": "1",
+    "CONTINENT_name": "America"
+  },
+  {
+    "CONTINENT_id": "2",
+    "CONTINENT_name": "Europe"
+  },
+  {
+    "CONTINENT_id": "3",
+    "CONTINENT_name": "Asia"
+  },
+  {
+    "CONTINENT_id": "4",
+    "CONTINENT_name": "Australia"
+  }
+]
