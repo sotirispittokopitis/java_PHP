@@ -30,7 +30,7 @@ Step 1: Run the Shell Script To execute the project, run the RunMe.sh script fro
 cd src
 ./RunMe.sh
 ```
-## ADDITIONAL WORK: (UNFINESHED)
+## ADDITIONAL WORK: (UNFINISHED)
 Description: Javalin and REST in the Project
 Javalin Framework
 - Javalin is a lightweight and flexible web framework for Java. It simplifies the creation of REST APIs and web applications. In this project, Javalin is used to define RESTful endpoints that allow interaction between the server (Java application) and the client (e.g., PHP or browser).
