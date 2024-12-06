@@ -24,13 +24,13 @@ Run the following command to make the RunMe.sh file executable (if necessary):
 chmod +x src/RunMe.sh 
 ```
 
-## Running the Project 
+## Running the Project:
 Step 1: Run the Shell Script To execute the project, run the RunMe.sh script from the terminal: 
 ```bash
 cd src
 ./RunMe.sh
 ```
-## ADDITIONAL WORK (UNFINESHED)
+## ADDITIONAL WORK: (UNFINESHED)
 Description: Javalin and REST in the Project
 Javalin Framework
 - Javalin is a lightweight and flexible web framework for Java. It simplifies the creation of REST APIs and web applications. In this project, Javalin is used to define RESTful endpoints that allow interaction between the server (Java application) and the client (e.g., PHP or browser).
