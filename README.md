@@ -1,4 +1,4 @@
-## MySQL Database Credentials
+## MySQL Database:
 Credentials used:
 - Database Name: sales_db
 - MySQL User: root
