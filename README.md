@@ -10,10 +10,7 @@ Credentials used:
 - Import the SQL dump using the Data Import feature in MySQL Workbench.
 
 ## Setup Instructions for Java and PHP source files:
-Clone the Repository: 
-```bash
-cd java_PHP 
-```
+Clone the Repository
 
 ## Libraries: 
 Ensure the required .jar files are present in the lib/ directory.
