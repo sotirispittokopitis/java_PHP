@@ -1,10 +1,10 @@
 ## Setup Instructions:
 Clone the Repository: 
-git clone https://github.com/your-username/java_PHP.git 
+```bash
 cd java_PHP 
+```
 
-
-## Add Libraries: 
+## Libraries: 
 Ensure the required .jar files are present in the lib/ directory.
 - gson-2.11.0.jar 
 - mysql-connector-j-9.1.0.jar
