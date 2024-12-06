@@ -7,7 +7,7 @@ Credentials used:
 ## Setup Instructions for MySQL:
 - Start MySQL Server (if it's not running already)
 - Connect to the MySQL server via MySQL Workbench.
-- Import the SQL dump using the Data Import feature in MySQL Workbench.
+- Import the SQL dump file (located in the src directory and named MySQL_DumpData) using the Data Import feature in MySQL Workbench."
 
 ## Setup Instructions for Java and PHP source files:
 Clone the Repository
