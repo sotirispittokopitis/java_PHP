@@ -41,10 +41,10 @@ In this project:
 
 Controller in Javalin
 In a typical web application, a controller is responsible for handling client requests and determining the appropriate response. In this project:
-* The RestController class acts as the controller.
+* The RestController class acts as the controller. (commented out)
 * It defines the RESTful endpoints using Javalin’s app.get and app.post methods.
 
 Changes in the PHP File
--  The PHP file interacts with the Javalin server through RESTful API calls.
+-  The PHP file interacts with the Javalin server through RESTful API calls. (commented out)
 
 (This code establishes the interaction between the PHP application and the Javalin REST API, but it is currently unfinished. Although the connection is established, further preparation and debugging are required to ensure the proper sending and receiving of JSON between Java and PHP. Additional time is required to address the 'Not Found' issue and verify that all endpoints, file paths, and configurations are correctly set up.)
