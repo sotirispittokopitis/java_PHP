@@ -39,9 +39,7 @@ In this project:
 * GET /api/send-json: Retrieves a JSON file from the server.
 * POST /api/receive-json: Accepts JSON data from the client and saves it to the server.
 
-Controller in Javalin:
-
-In a typical web application, a controller is responsible for handling client requests and determining the appropriate response. In this project:
+Controller in Javalin: In a typical web application, a controller is responsible for handling client requests and determining the appropriate response. In this project:
 * The RestController class acts as the controller. (commented out)
 * It defines the RESTful endpoints using Javalin’s app.get and app.post methods.
 
