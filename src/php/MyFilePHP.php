@@ -2,7 +2,47 @@
 // Define the path to the JSON data folder
 // Dynamically navigate to the project root
 $jsonDataPath = __DIR__ . '/../json_data/';
-
+//
+//// Define API endpoints
+//$javaApiUrl = 'http://localhost:8080/api';
+//
+//// Function to send JSON to Java API
+//function sendJsonToJava($jsonFilePath) {
+//    $jsonData = file_get_contents($jsonFilePath);
+//    $javaApiUrl = 'http://localhost:8080/api';
+//
+//    $ch = curl_init("$javaApiUrl/receive-json");
+//    curl_setopt($ch, CURLOPT_POST, true);
+//    curl_setopt($ch, CURLOPT_POSTFIELDS, $jsonData);
+//    curl_setopt($ch, CURLOPT_HTTPHEADER, ['Content-Type: application/json']);
+//    curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+//
+//    $response = curl_exec($ch);
+//    curl_close($ch);
+//
+//    return $response;
+//}
+//
+//// Function to receive JSON from Java API
+//function receiveJsonFromJava($fileName) {
+//    $javaApiUrl = 'http://localhost:8080/api';
+//    $ch = curl_init("$javaApiUrl/send-json");
+//    curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+//    curl_setopt($ch, CURLOPT_HTTPHEADER, ['Content-Type: application/json']);
+//
+//    $response = curl_exec($ch);
+//    curl_close($ch);
+//
+//    file_put_contents($GLOBALS['jsonDataPath'] . $fileName, $response);
+//    return json_decode($response, true);
+//}
+//
+//// Example usage: Sending and receiving JSON
+//$sendResponse = sendJsonToJava($jsonDataPath . 'sales.json');
+//echo "Response from sending JSON to Java: " . $sendResponse . PHP_EOL;
+//
+//$receivedData = receiveJsonFromJava('received_from_java.json');
+//echo "Received JSON saved as 'received_from_java.json'" . PHP_EOL;
 
 // Load JSON files
 $productData = json_decode(file_get_contents($jsonDataPath . 'product.json'), true);

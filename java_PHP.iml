@@ -9,5 +9,9 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="mysql-connector-j-9.1.0" level="project" />
     <orderEntry type="library" name="google.code.gson" level="project" />
+    <orderEntry type="library" name="io.javalin" level="project" />
+    <orderEntry type="library" name="springframework.boot.spring" level="project" />
+    <orderEntry type="library" name="slf4j-simple-1.7.36" level="project" />
+    <orderEntry type="library" name="com.fasterxml.jackson.databind-2.10.5.1.LIFERAY-PATCHED-1" level="project" />
   </component>
 </module>

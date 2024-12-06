@@ -45,12 +45,13 @@ else
 fi
 
 # Run PHP Script and Save Output to HTML
-echo "Running PHP Script and generating output.html..."
+echo "- Running PHP Script and generating output.html..."
 sleep 4
 if [ -f "$PHP_SCRIPT" ]; then
     php "$PHP_SCRIPT" > "$HTML_OUTPUT"
     if [ $? -eq 0 ]; then
-        echo "PHP output saved to $HTML_OUTPUT"
+        echo "- PHP output saved to $HTML_OUTPUT"
+        sleep 3
         # Open the HTML file in the default browser (macOS)
         if [[ "$OSTYPE" == "darwin"* ]]; then
             open "$HTML_OUTPUT"
