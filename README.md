@@ -45,7 +45,7 @@ Ensure the required .jar files are present in the lib/ directory.
 
 
 ## Make the Shell Script Executable: 
-Run the following command to make the RunMe.sh file executable (if required): 
+Run the following command to make the RunMe.sh file executable (if necessary): 
 ```bash
 chmod +x src/RunMe.sh 
 ```
