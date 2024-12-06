@@ -47,4 +47,4 @@ In a typical web application, a controller is responsible for handling client re
 Changes in the PHP File
 -  The PHP file interacts with the Javalin server through RESTful API calls.
 
-(
+(This code establishes the interaction between the PHP application and the Javalin REST API, but it is currently unfinished. Although the connection is established, further preparation and debugging are required to ensure the proper sending and receiving of JSON between Java and PHP. Additional time is required to address the 'Not Found' issue and verify that all endpoints, file paths, and configurations are correctly set up.)
