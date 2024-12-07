@@ -30,6 +30,8 @@ Step 1: Run the Shell Script To execute the project, run the RunMe.sh script fro
 cd src
 ./RunMe.sh
 ```
+(part 2 and 3 of the assigned tasks)
+
 ## ADDITIONAL WORK: (UNFINISHED)
 Description: Javalin and REST in the Project
 Javalin Framework
