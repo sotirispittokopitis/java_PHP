@@ -4,7 +4,7 @@ Credentials used:
 - MySQL User: root
 - Password: 12345678
 
-## Setup Instructions for MySQL:
+## Setup Instructions for MySQL: (Part 1)
 - Start MySQL Server (if it's not running already)
 - Connect to the MySQL server via MySQL Workbench.
 - Import the SQL dump file (located in the src directory and named MySQL_DumpData) using the Data Import feature in MySQL Workbench."
@@ -30,9 +30,9 @@ Step 1: Run the Shell Script To execute the project, run the RunMe.sh script fro
 cd src
 ./RunMe.sh
 ```
-(part 2 and 3 of the assigned tasks)
+(Part 2 and 3 of the assigned tasks)
 
-## ADDITIONAL WORK: (UNFINISHED)
+## ADDITIONAL WORK: (PART 4/ UNFINISHED)
 Description: Javalin and REST in the Project
 Javalin Framework
 - Javalin is a lightweight and flexible web framework for Java. It simplifies the creation of REST APIs and web applications. In this project, Javalin is used to define RESTful endpoints that allow interaction between the server (Java application) and the client (e.g., PHP or browser).
